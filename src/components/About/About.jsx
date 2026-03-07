@@ -10,24 +10,28 @@ const About = () => {
       className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
+
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
+
           {/* Greeting */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
             Hi, I am
           </h1>
+
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
             Anshu Singh
           </h2>
-          {/* Skills Heading with Typing Effect */}
+
+          {/* Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
-                'App Developer',
+                'Python Fullstack Developer',
                 'React Native Developer',
+                'App Developer',
                 'Coder',
               ]}
               speed={100}
@@ -39,10 +43,12 @@ const About = () => {
               )}
             />
           </h3>
-          {/* About Me Paragraph */}
+
+          {/* About Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Hi, I’m Anshu Singh, a React Native and React JS Developer with experience in building web and mobile applications using JavaScript, Redux, and FastAPI. I have internship experience where I worked on API integration and JWT authentication. I enjoy building responsive and high-performance applications and I’m eager to grow in a challenging development role.
+            Hi, I’m Anshu Singh, a Python Full-Stack Developer specializing in building scalable web and mobile applications using FastAPI, React.js, and React Native. I have hands-on experience developing REST APIs, implementing JWT authentication, and integrating frontend and backend systems to create high-performance applications. During my internship, I worked on building production-ready APIs and responsive user interfaces while collaborating with development teams using Git and modern development workflows. I enjoy solving real-world problems through clean, efficient code and continuously improving my skills to build impactful software.
           </p>
+
           {/* Resume Button */}
           <a
             href="https://drive.google.com/file/d/1k3WZWvBvWjpnU74d7ILc8fy7_JNoXz66/view"
@@ -58,8 +64,9 @@ const About = () => {
           </a>
 
         </div>
+
         {/* Right Side */}
-        <div className="md:w-1/2 flex justify-center md:justify-end">
+        <div className="md:w-1/2 flex justify-center md:justify-end md:translate-x-12 lg:translate-x-20 md:-mt-20 lg:-mt-28"> {/* ⭐ CHANGE: moved image upward */}
           <Tilt
             className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
             tiltMaxAngleX={20}
