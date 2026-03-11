@@ -26,6 +26,7 @@ import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
+import angularLogo from './assets/tech_logo/angular.png';
 
 
 // Experience Section Logo's
@@ -44,6 +45,7 @@ import cloudify from './assets/work_logo/cloudify.png';
 import ecommerce from './assets/work_logo/ecommerce.png';
 import news from './assets/work_logo/news.png';
 import todo from './assets/work_logo/todo.jpg';
+import employee from './assets/work_logo/employee.png';
 
 
 
@@ -58,6 +60,8 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
+      { name: 'React Native', logo: reactNativeLogo },
+      { name: 'Angular', logo: angularLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
@@ -82,8 +86,8 @@ export const SkillsInfo = [
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
-      { name: 'React', logo: reactLogo },
-      { name: 'React Native', logo: reactNativeLogo },
+      
+     
     ],
   },
   {
@@ -142,7 +146,7 @@ export const education = [
   {
     id: 2,
     img: school,
-    school: "shree Krishan Memorial College,Nawada",
+    school: "shree Krishan Memorial College",
     date: "Apr 2017 - March 2019",
     grade: "74%",
     desc: "I completed my class 12 education from shree Krishan Memorial College,Nawada, under the BSEB board, where I studied Biology,Physics and Chemistry (PBC) with Computer Science.",
@@ -151,7 +155,7 @@ export const education = [
   {
     id: 3,
     img: school,
-    school: "Modern School,Patna",
+    school: "Modern School",
     date: "Apr 2016 - March 2017",
     grade: "94%",
     desc: "I completed my class 10 education from Modern School,Patna, under the CBSE board, where I studied Science with Computer.",
@@ -160,6 +164,7 @@ export const education = [
 ];
 
 export const projects = [
+
   {
     id: 0,
     title: "News App",
@@ -203,6 +208,18 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Angular Employee Management System",
+    description:
+      "A responsive Angular-based dashboard application that enables users to perform CRUD operations for managing employee records. The application uses LocalStorage for data persistence and demonstrates Angular concepts such as components, services, and data binding.",
+    image: employee,
+    tags: ["Angular", "TypeScript","TailwindCSS", "HTML", "CSS", "LocalStorage"],
+    github: "https://github.com/anshusingh10/employee-management",
+    webapp: "",
+  },
+
+
+  {
+    id: 5,
     title: "Amazon",
     description:
       "A responsive front-end recreation of the Amazon UI built with HTML5 and CSS3. It demonstrates modern layout techniques using Flexbox and Grid, focusing on clean design and responsive e-commerce interface..",
@@ -211,6 +228,6 @@ export const projects = [
     github: "https://github.com/anshusingh10/amazon",
     webapp: "",
   },
-  
-  
+
+
 ];  
