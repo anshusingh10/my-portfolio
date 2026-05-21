@@ -30,7 +30,6 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Frontend Developer',
-                'Python Fullstack Developer',
                 'React Native Developer',
                 'App Developer',
                 'Coder',
